@@ -3,157 +3,140 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Utay TV+</title>
+  <title>Utay TV+ Premium Player</title>
   <style>
     * {
+      margin: 0;
+      padding: 0;
       box-sizing: border-box;
-      font-family: "Poppins", sans-serif;
     }
 
     body {
-      margin: 0;
-      background: linear-gradient(145deg, #0b0b0f, #1b1b25);
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #0b0f2f, #1a1f4a);
       color: #fff;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
+      justify-content: center;
       height: 100vh;
-      transition: all 0.5s ease;
+      transition: background 0.5s;
     }
 
-    .login-box, .player-box {
-      background: rgba(255, 255, 255, 0.05);
-      backdrop-filter: blur(10px);
-      padding: 30px;
+    .container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 25px;
       border-radius: 20px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
       width: 90%;
       max-width: 400px;
-      text-align: center;
+      backdrop-filter: blur(10px);
       animation: fadeIn 1s ease;
     }
 
     h1 {
-      margin-bottom: 20px;
-      color: #f6d365;
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #ffd85e;
+    }
+
+    h2 {
+      font-size: 1rem;
+      font-weight: 400;
+      margin-bottom: 25px;
+      color: #ccc;
     }
 
     input {
       width: 100%;
       padding: 12px;
       margin-bottom: 15px;
-      border: none;
       border-radius: 10px;
-      background: rgba(255, 255, 255, 0.1);
-      color: #fff;
+      border: none;
       font-size: 16px;
+      outline: none;
+      text-align: center;
+      background: rgba(255,255,255,0.15);
+      color: #fff;
+    }
+
+    input::placeholder {
+      color: #aaa;
     }
 
     button {
       width: 100%;
       padding: 12px;
+      background: linear-gradient(90deg, #ffd85e, #ff9a3c);
       border: none;
       border-radius: 10px;
-      background: linear-gradient(90deg, #f6d365, #fda085);
-      color: #000;
       font-weight: bold;
+      color: #000;
       font-size: 16px;
       cursor: pointer;
-      transition: 0.3s;
+      transition: transform 0.2s, background 0.3s;
     }
 
     button:hover {
       transform: scale(1.05);
+      background: linear-gradient(90deg, #ffeb9a, #ffb84d);
     }
 
-    .player-box {
+    .player {
       display: none;
-    }
-
-    iframe {
-      width: 100%;
-      height: 220px;
-      border-radius: 12px;
-      margin-bottom: 15px;
-    }
-
-    .channels {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
+      flex-direction: column;
+      align-items: center;
       justify-content: center;
     }
 
-    .channel-btn {
-      background: rgba(255, 255, 255, 0.1);
-      border: none;
-      color: #fff;
-      padding: 10px 15px;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: 0.3s;
+    video {
+      width: 100%;
+      border-radius: 15px;
+      margin-top: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
     }
 
-    .channel-btn:hover {
-      background: #f6d365;
-      color: #000;
+    footer {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #999;
     }
 
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
+      from {opacity: 0; transform: translateY(10px);}
+      to {opacity: 1; transform: translateY(0);}
     }
   </style>
 </head>
 <body>
-  <div class="login-box" id="loginBox">
-    <h1>Utay TV+ Giriş</h1>
-    <input type="text" id="username" placeholder="Kullanıcı adı">
-    <input type="password" id="password" placeholder="Şifre">
+  <div class="container" id="loginBox">
+    <h1>Utay TV+</h1>
+    <h2>Premium Player</h2>
+    <input type="password" id="password" placeholder="Giriş Şifresi" />
     <button onclick="login()">Giriş Yap</button>
-    <p style="margin-top:10px; color:#ccc; font-size:14px;">Demo kullanıcı: <b>utay88</b><br>Şifre: <b>1234ugur</b></p>
   </div>
 
-  <div class="player-box" id="playerBox">
-    <h1>📺 Utay TV+ Premium Player</h1>
-    <iframe id="player" src="" allowfullscreen></iframe>
-    <div class="channels" id="channelList">
-      <button class="channel-btn" onclick="play('https://www.youtube.com/embed/dQw4w9WgXcQ')">TRT 1</button>
-      <button class="channel-btn" onclick="play('https://www.youtube.com/embed/ysz5S6PUM-U')">Show TV</button>
-      <button class="channel-btn" onclick="play('https://www.youtube.com/embed/jfKfPfyJRdk')">NTV Canlı</button>
-    </div>
-    <br>
-    <input type="text" id="customUrl" placeholder="Manuel kanal URL’si ekle">
-    <button onclick="addChannel()">Kanal Ekle</button>
+  <div class="container player" id="playerBox">
+    <h1>📺 Utay TV+ Yayın</h1>
+    <video controls poster="https://i.imgur.com/vkK4hjm.png">
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Tarayıcınız video oynatmayı desteklemiyor.
+    </video>
+    <footer>Utay TV+ Premium Player © 2025</footer>
   </div>
 
   <script>
     function login() {
-      const user = document.getElementById("username").value.trim();
       const pass = document.getElementById("password").value.trim();
-      if (user === "utay88" && pass === "1234ugur") {
-        document.getElementById("loginBox").style.display = "none";
-        document.getElementById("playerBox").style.display = "block";
+      const loginBox = document.getElementById("loginBox");
+      const playerBox = document.getElementById("playerBox");
+      if (pass === "utaytv") {
+        loginBox.style.display = "none";
+        playerBox.style.display = "flex";
       } else {
-        alert("❌ Kullanıcı adı veya şifre hatalı!");
+        alert("Yanlış şifre! Lütfen tekrar deneyin.");
       }
-    }
-
-    function play(url) {
-      document.getElementById("player").src = url;
-    }
-
-    function addChannel() {
-      const url = document.getElementById("customUrl").value.trim();
-      if (!url) return alert("Lütfen bir URL giriniz.");
-      const name = prompt("Kanal adı girin:");
-      if (!name) return;
-      const btn = document.createElement("button");
-      btn.className = "channel-btn";
-      btn.textContent = name;
-      btn.onclick = () => play(url);
-      document.getElementById("channelList").appendChild(btn);
-      document.getElementById("customUrl").value = "";
     }
   </script>
 </body>
