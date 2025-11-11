@@ -1,170 +1,180 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Utay TV+</title>
-<style>
-  body {
-    margin: 0;
-    font-family: "Poppins", sans-serif;
-    background: linear-gradient(145deg, #1b1b1b, #2b2b2b);
-    color: #fff;
-    transition: background 0.5s, color 0.5s;
-  }
-
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 14px 20px;
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(8px);
-  }
-
-  h1 {
-    font-size: 1.3rem;
-  }
-
-  .player {
-    display: block;
-    width: 90%;
-    max-width: 800px;
-    height: 300px;
-    margin: 20px auto;
-    background: #000;
-    border-radius: 14px;
-    overflow: hidden;
-  }
-
-  .controls {
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  select, button {
-    background: #ff7ad9;
-    border: none;
-    color: #fff;
-    border-radius: 10px;
-    padding: 8px 14px;
-    font-weight: bold;
-    margin: 6px;
-    cursor: pointer;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 14px;
-    padding: 20px;
-  }
-
-  .card {
-    background: linear-gradient(135deg, #ffb6c1, #ffc107);
-    color: #2b2b2b;
-    font-weight: 600;
-    text-align: center;
-    padding: 16px;
-    border-radius: 14px;
-    transition: transform 0.2s, background 0.3s;
-  }
-
-  .card:hover {
-    transform: scale(1.05);
-    background: linear-gradient(135deg, #ffc4d1, #ffe18a);
-  }
-
-  .hidden {
-    display: none;
-  }
-
-  @media (prefers-color-scheme: light) {
-    body {
-      background: linear-gradient(145deg, #fffbe7, #ffe1e8);
-      color: #333;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utay TV+</title>
+  <style>
+    :root {
+      --bg-dark: #1b1b1f;
+      --accent-pink: #ffb6c1;
+      --accent-yellow: #ffe27a;
+      --card-bg: linear-gradient(145deg, #2a2a31, #1b1b1f);
+      --card-hover: linear-gradient(145deg, #3a3a45, #25252b);
+      --text-color: #f5f5f5;
     }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Poppins", sans-serif; }
+    body { background: var(--bg-dark); color: var(--text-color); overflow-x: hidden; }
+
+    header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      background: linear-gradient(90deg, var(--accent-pink), var(--accent-yellow));
+      color: #000;
+      text-align: center;
+      padding: 10px;
+      font-weight: bold;
+      z-index: 1000;
+      font-size: 1.4em;
+    }
+
+    #player-container {
+      position: fixed;
+      top: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      max-width: 720px;
+      background: #000;
+      border-radius: 12px;
+      overflow: hidden;
+      z-index: 900;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      background: #000;
+    }
+
+    main {
+      margin-top: 420px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 15px;
+      padding: 15px;
+    }
+
     .card {
-      color: #111;
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 10px;
+      text-align: center;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      box-shadow: 0 0 8px rgba(255,255,255,0.1);
     }
-  }
-</style>
+
+    .card:hover { background: var(--card-hover); transform: scale(1.03); }
+
+    .card img {
+      width: 100%;
+      border-radius: 12px;
+      height: 90px;
+      object-fit: cover;
+    }
+
+    .card span { display: block; margin-top: 8px; font-weight: 500; }
+
+    #login {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.95);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 2000;
+    }
+
+    #login input {
+      margin: 5px;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      outline: none;
+      width: 220px;
+      text-align: center;
+    }
+
+    #login button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: var(--accent-yellow);
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    @media (orientation: landscape) and (max-width: 768px) {
+      #player-container { display: none; }
+    }
+  </style>
 </head>
 <body>
-<div id="login-screen">
-  <h2 style="text-align:center;margin-top:60px;">Utay TV+ Giriş</h2>
-  <div style="text-align:center;margin-top:20px;">
-    <input id="username" placeholder="Kullanıcı Adı" style="padding:8px;border-radius:6px;border:none;" />
-    <br><br>
-    <input id="password" placeholder="Şifre" type="password" style="padding:8px;border-radius:6px;border:none;" />
-    <br><br>
+  <div id="login">
+    <h2>Utay TV+ Giriş</h2>
+    <input type="text" id="username" placeholder="Kullanıcı Adı">
+    <input type="password" id="password" placeholder="Şifre">
     <button onclick="login()">Giriş Yap</button>
+    <p id="login-msg" style="color:red;margin-top:8px;"></p>
   </div>
-</div>
 
-<div id="app" class="hidden">
-  <header>
-    <h1>Utay TV+</h1>
-    <button onclick="addChannel()">+ Kanal Ekle</button>
-  </header>
+  <header>📺 Utay TV+</header>
 
-  <div class="player">
-    <video id="videoPlayer" width="100%" height="100%" controls>
+  <div id="player-container">
+    <video id="player" controls poster="">
       <source src="" type="application/x-mpegURL">
       Tarayıcınız video oynatmayı desteklemiyor.
     </video>
   </div>
 
-  <div class="controls">
-    <label>Çözünürlük:</label>
-    <select id="quality">
-      <option>Otomatik</option>
-      <option>144p</option>
-      <option>360p</option>
-      <option>720p</option>
-      <option>1080p</option>
-      <option>1440p</option>
-    </select>
-  </div>
+  <main id="channel-list">
+    <div class="card" data-url="https://tv-trt1.medya.trt.com.tr/master.m3u8">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/TRT_1_logo.png" alt="TRT 1">
+      <span>TRT 1</span>
+    </div>
+    <div class="card" data-url="https://tv-trtspor1.medya.trt.com.tr/master.m3u8">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/TRT_Spor_logo.png" alt="TRT Spor">
+      <span>TRT Spor</span>
+    </div>
+    <div class="card" data-url="https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/TRT_Belgesel_logo.png" alt="TRT Belgesel">
+      <span>TRT Belgesel</span>
+    </div>
+    <div class="card" data-url="https://iaqzu4szhtzeqd0edpsayinle.medya.trt.com.tr/master_1440p.m3u8">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/TRT_Spor_Yildiz_logo.png" alt="Tabii Spor 1">
+      <span>Tabii Spor 1</span>
+    </div>
+  </main>
 
-  <div class="grid" id="channelGrid">
-    <div class="card" onclick="play('https://example.com/trt1.m3u8')">TRT 1</div>
-    <div class="card" onclick="play('https://example.com/trt2.m3u8')">TRT 2</div>
-    <div class="card" onclick="play('https://example.com/trthaber.m3u8')">TRT Haber</div>
-    <div class="card" onclick="play('https://example.com/trtspor1.m3u8')">TRT Spor 1</div>
-    <div class="card" onclick="play('https://example.com/tabii-premium.m3u8')">Tabii Spor 1 • Premium</div>
-  </div>
-</div>
+  <script>
+    const loginScreen = document.getElementById("login");
+    const usernameInput = document.getElementById("username");
+    const passwordInput = document.getElementById("password");
+    const msg = document.getElementById("login-msg");
 
-<script>
-  function login() {
-    const user = document.getElementById("username").value;
-    const pass = document.getElementById("password").value;
-    if (user === "utay88" && pass === "1234ugur") {
-      document.getElementById("login-screen").classList.add("hidden");
-      document.getElementById("app").classList.remove("hidden");
-    } else {
-      alert("Hatalı kullanıcı adı veya şifre!");
+    function login() {
+      const user = usernameInput.value.trim();
+      const pass = passwordInput.value.trim();
+      if (user === "utay88" && pass === "1234ugur") {
+        loginScreen.style.display = "none";
+      } else {
+        msg.textContent = "❌ Hatalı kullanıcı adı veya şifre!";
+      }
     }
-  }
 
-  function play(url) {
-    const video = document.getElementById("videoPlayer");
-    video.src = url;
-    video.play();
-  }
-
-  function addChannel() {
-    const name = prompt("Kanal adı:");
-    const url = prompt("Kanal bağlantısı (m3u8 veya mp4):");
-    if (name && url) {
-      const card = document.createElement("div");
-      card.className = "card";
-      card.innerText = name;
-      card.onclick = () => play(url);
-      document.getElementById("channelGrid").appendChild(card);
-    }
-  }
-</script>
+    const player = document.getElementById("player");
+    document.querySelectorAll(".card").forEach(card => {
+      card.addEventListener("click", () => {
+        const url = card.getAttribute("data-url");
+        player.src = url;
+        player.play();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    });
+  </script>
 </body>
 </html>
