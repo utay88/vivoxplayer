@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Utay TV+ Premium Player</title>
+<style>
+:root {
+  --pink:#ffd6e0; --yellow:#fff6cc;
+  --dark-bg:#1e1c24; --dark-card:#2b2833;
+  --dark-accent:#ffcc70;
+}
+body {
+  margin:0; font-family:sans-serif;
+  background:linear-gradient(135deg,var(--pink),var(--yellow));
+  transition:background .5s,color .5s;
+}
+body.dark {background:linear-gradient(135deg,var(--dark-bg),#3a3544);color:#fff;}
+header {
+  position:fixed;top:0;left:0;right:0;height:60px;
+  background:rgba(255,255,255,.6);backdrop-filter:blur(10px);
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 1rem;z-index:10;transition:background .5s;
+}
+body.dark header{background:rgba(0,0,0,.4);}
+#player{width:100%;aspect-ratio:16/9;background:#000;}
+#grid{
+  margin-top:70px;display:grid;gap:1rem;
+  grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+  padding:1rem;
+}
+.card{
+  background:rgba(255,255,255,.7);border-radius:16px;
+  overflow:hidden;cursor:pointer;transition:.3s;box-shadow:0 2px 6px rgba(0,0,0,.1);
+}
+body.dark .card{background:rgba(255,255,255,.1);}
+.card:hover{transform:translateY(-4px);}
+.card img{width:100%;height:90px;object-fit:contain;background:#fff;}
+.card h4{text-align:center;margin:8px 0;font-size:.9rem;}
+.toggle{background:none;border:none;font-size:1.4rem;cursor:pointer;}
+</style>
+</head>
+<body>
+<header>
+  <h3>Utay TV+ Premium Player</h3>
+  <button class="toggle" id="modeBtn">🌙</button>
+</header>
+
+<video id="player" controls preload="none" poster="">
+  <source src="" type="application/x-mpegURL">
+  Tarayıcınız HLS oynatmayı desteklemiyor.
+</video>
+
+<div id="grid"></div>
+
+<script>
+const channels=[
+  {name:"TRT 1",logo:"https://upload.wikimedia.org/wikipedia/commons/7/70/TRT_1_logo.png",url:"https://tv-trt1.medya.trt.com.tr/master.m3u8"},
+  {name:"TRT 2",logo:"https://upload.wikimedia.org/wikipedia/commons/b/b4/TRT_2_logo.png",url:"https://tv-trt2.medya.trt.com.tr/master.m3u8"},
+  {name:"TRT Spor 1",logo:"https://upload.wikimedia.org/wikipedia/commons/e/e4/TRT_Spor_logo.png",url:"https://tv-trtspor1.medya.trt.com.tr/master.m3u8"},
+  {name:"TRT Belgesel",logo:"https://upload.wikimedia.org/wikipedia/commons/2/2d/TRT_Belgesel_logo.png",url:"https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8"},
+  {name:"Tabii Spor 4",logo:"https://upload.wikimedia.org/wikipedia/commons/4/4e/TRT_logo.png",url:"https://uJnF69oP16X2fiIyWxCNx41Q8.medya.trt.com.tr/master_1440p.m3u8"},
+  {name:"Tabii Spor 5",logo:"https://upload.wikimedia.org/wikipedia/commons/4/4e/TRT_logo.png",url:"https://z3mmimwz148csv0vaxtphqspf.medya.trt.com.tr/master.m3u8"},
+  {name:"Tabii Spor 6",logo:"https://upload.wikimedia.org/wikipedia/commons/4/4e/TRT_logo.png",url:"https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master_1440p.m3u8"},
+];
+const grid=document.getElementById("grid");
+channels.forEach(c=>{
+  const card=document.createElement("div");
+  card.className="card";
+  card.innerHTML=`<img src="${c.logo}"><h4>${c.name}</h4>`;
+  card.onclick=()=>{
+    const player=document.getElementById("player");
+    player.src=c.url;player.play();
+  };
+  grid.appendChild(card);
+});
+
+// Tema geçişi
+const btn=document.getElementById("modeBtn");
+btn.onclick=()=>{
+  document.body.classList.toggle("dark");
+  btn.textContent=document.body.classList.contains("dark")?"☀️":"🌙";
+};
+</script>
+</body>
+</html>
