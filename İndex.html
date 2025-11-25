@@ -2,141 +2,66 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
+  <title>Utay TV Player</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Utay TV+ Premium Player</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
     body {
-      font-family: "Poppins", sans-serif;
-      background: linear-gradient(135deg, #0b0f2f, #1a1f4a);
+      margin: 0;
+      background: #000;
       color: #fff;
+      font-family: Arial, sans-serif;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
       height: 100vh;
-      transition: background 0.5s;
+      overflow: hidden;
     }
-
-    .container {
-      text-align: center;
-      background: rgba(255, 255, 255, 0.08);
-      padding: 25px;
-      border-radius: 20px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.4);
-      width: 90%;
-      max-width: 400px;
-      backdrop-filter: blur(10px);
-      animation: fadeIn 1s ease;
-    }
-
-    h1 {
-      font-size: 1.8rem;
-      margin-bottom: 10px;
-      color: #ffd85e;
-    }
-
-    h2 {
-      font-size: 1rem;
-      font-weight: 400;
-      margin-bottom: 25px;
-      color: #ccc;
-    }
-
-    input {
-      width: 100%;
-      padding: 12px;
-      margin-bottom: 15px;
-      border-radius: 10px;
-      border: none;
+    header {
+      padding: 10px;
+      background: #111;
       font-size: 16px;
-      outline: none;
       text-align: center;
-      background: rgba(255,255,255,0.15);
-      color: #fff;
+      border-bottom: 1px solid #222;
     }
-
-    input::placeholder {
-      color: #aaa;
-    }
-
-    button {
-      width: 100%;
-      padding: 12px;
-      background: linear-gradient(90deg, #ffd85e, #ff9a3c);
-      border: none;
-      border-radius: 10px;
-      font-weight: bold;
-      color: #000;
-      font-size: 16px;
-      cursor: pointer;
-      transition: transform 0.2s, background 0.3s;
-    }
-
-    button:hover {
-      transform: scale(1.05);
-      background: linear-gradient(90deg, #ffeb9a, #ffb84d);
-    }
-
-    .player {
-      display: none;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
     video {
       width: 100%;
-      border-radius: 15px;
-      margin-top: 20px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.3);
-    }
-
-    footer {
-      margin-top: 20px;
-      font-size: 13px;
-      color: #999;
-    }
-
-    @keyframes fadeIn {
-      from {opacity: 0; transform: translateY(10px);}
-      to {opacity: 1; transform: translateY(0);}
+      height: calc(100vh - 50px);
+      background: #000;
     }
   </style>
 </head>
+
 <body>
-  <div class="container" id="loginBox">
-    <h1>Utay TV+</h1>
-    <h2>Premium Player</h2>
-    <input type="password" id="password" placeholder="Giriş Şifresi" />
-    <button onclick="login()">Giriş Yap</button>
-  </div>
+  <header>Utay TV Player</header>
 
-  <div class="container player" id="playerBox">
-    <h1>📺 Utay TV+ Yayın</h1>
-    <video controls poster="https://i.imgur.com/vkK4hjm.png">
-      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      Tarayıcınız video oynatmayı desteklemiyor.
-    </video>
-    <footer>Utay TV+ Premium Player © 2025</footer>
-  </div>
+  <video id="video" controls autoplay playsinline></video>
 
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script>
-    function login() {
-      const pass = document.getElementById("password").value.trim();
-      const loginBox = document.getElementById("loginBox");
-      const playerBox = document.getElementById("playerBox");
-      if (pass === "utaytv") {
-        loginBox.style.display = "none";
-        playerBox.style.display = "flex";
-      } else {
-        alert("Yanlış şifre! Lütfen tekrar deneyin.");
-      }
+    // Varsayılan stream (isteğe bağlı)
+    const DEFAULT_STREAM = "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8";
+
+    // URL parametresinden "url" bilgsini al
+    const params = new URLSearchParams(window.location.search);
+    const streamUrl = params.get("url") || DEFAULT_STREAM;
+
+    const video = document.getElementById("video");
+
+    // HLS destek kontrolü
+    if (Hls.isSupported()) {
+      const hls = new Hls();
+      hls.loadSource(streamUrl);
+      hls.attachMedia(video);
+      hls.on(Hls.Events.MANIFEST_PARSED, function () {
+        video.play().catch(() => {});
+      });
+    } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+      // Safari gibi tarayıcılar için
+      video.src = streamUrl;
+      video.addEventListener("loadedmetadata", function () {
+        video.play();
+      });
+    } else {
+      alert("Bu tarayıcı HLS oynatma desteklemiyor.");
     }
   </script>
 </body>
