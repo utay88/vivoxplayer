@@ -1,565 +1,466 @@
-#EXTM3U
-#EXTINF:-1,***** TURK ULUSAL *****
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/37501
 #EXTINF:-1,TR:TRT 1 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88956
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88956.m3u8
 #EXTINF:-1,TR:TRT 1 HD  [yedek]
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/104091
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/104091.m3u8
 #EXTINF:-1,TR:TRT 1 HQ
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88955
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88955.m3u8
 #EXTINF:-1,TR:TRT AVAZ HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/94866
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/94866.m3u8
 #EXTINF:-1,TR:ATV HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88959
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88959.m3u8
 #EXTINF:-1,TR:ATV HQ
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88958
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88958.m3u8
 #EXTINF:-1,TR:SHOW TV HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88962
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88962.m3u8
 #EXTINF:-1,TR:SHOW TV HQ
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88961
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88961.m3u8
 #EXTINF:-1,TR:STAR TV HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88965
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88965.m3u8
 #EXTINF:-1,TR:STAR TV HQ
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88964
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88964.m3u8
 #EXTINF:-1,TR:KANAL D HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88968
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88968.m3u8
 #EXTINF:-1,TR:KANAL D HQ
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88967
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88967.m3u8
 #EXTINF:-1,TR:NOW HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88971
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88971.m3u8
 #EXTINF:-1,TR:NOW HQ
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88970
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88970.m3u8
 #EXTINF:-1,TR:TV 8 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88974
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88974.m3u8
 #EXTINF:-1,TR:TV 8 HQ
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88973
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88973.m3u8
 #EXTINF:-1,TR:TV 8.5 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88982
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88982.m3u8
 #EXTINF:-1,TR:BEYAZ TV HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88980
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88980.m3u8
 #EXTINF:-1,TR:BEYAZ TV HQ
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88979
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88979.m3u8
 #EXTINF:-1,TR:KANAL 7 HQ
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88976
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88976.m3u8
 #EXTINF:-1,TR:KANAL 7 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88977
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88977.m3u8
 #EXTINF:-1,TR:TEVE 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88984
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88984.m3u8
 #EXTINF:-1,TR:A2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89813
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89813.m3u8
 #EXTINF:-1,TR:360 TV HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88986
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88986.m3u8
 #EXTINF:-1,TR:Bi KANAL HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/115820
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/115820.m3u8
 #EXTINF:-1,TR:TYT TURK HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/115899
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/115899.m3u8
 #EXTINF:-1,TR:ATV AVRUPA HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88990
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88990.m3u8
 #EXTINF:-1,TR:EURO D HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88989
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88989.m3u8
 #EXTINF:-1,TR:EURO STAR HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88988
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88988.m3u8
 #EXTINF:-1,TR:TV 8 INT HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88991
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88991.m3u8
 #EXTINF:-1,TR:TGRT EU HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89118
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89118.m3u8
 #EXTINF:-1,TR:TRT EBA LISE HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88994
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88994.m3u8
 #EXTINF:-1,***** TURK UHD *****
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89356
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89356.m3u8
 #EXTINF:-1,TR:TRT 4K UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89002
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89002.m3u8
 #EXTINF:-1,TR:TRT 1 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88957
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88957.m3u8
 #EXTINF:-1,TR:TRT 1 UHD  [yedek]
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/104092
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/104092.m3u8
 #EXTINF:-1,TR:ATV UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88960
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88960.m3u8
 #EXTINF:-1,TR:SHOW TV UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88963
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88963.m3u8
 #EXTINF:-1,TR:STAR TV UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88966
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88966.m3u8
 #EXTINF:-1,TR:KANAL D UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88969
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88969.m3u8
 #EXTINF:-1,TR:NOW UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88972
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88972.m3u8
 #EXTINF:-1,TR:TV 8 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88975
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88975.m3u8
 #EXTINF:-1,TR:KANAL 7 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88978
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88978.m3u8
 #EXTINF:-1,TR:BEYAZ TV UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88981
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88981.m3u8
 #EXTINF:-1,TR:TRT MUZIK UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89295
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89295.m3u8
 #EXTINF:-1,TR:A2 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88983
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88983.m3u8
 #EXTINF:-1,TR:TEVE 2 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88985
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88985.m3u8
 #EXTINF:-1,TR:SHOWMAX UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88987
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88987.m3u8
 #EXTINF:-1,TR:KANAL 7 EU UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/88992
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/88992.m3u8
 #EXTINF:-1,TR:A HABER UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89100
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89100.m3u8
 #EXTINF:-1,TR:CNBC-Ê UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/105313
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/105313.m3u8
 #EXTINF:-1,TR:CNN TURK UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89106
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89106.m3u8
 #EXTINF:-1,TR:HABERTURK UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89108
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89108.m3u8
 #EXTINF:-1,TR:TRT HABER UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89111
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89111.m3u8
 #EXTINF:-1,TR:HALK TV UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/116793
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/116793.m3u8
 #EXTINF:-1,TR:SOZCU TV UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/116792
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/116792.m3u8
 #EXTINF:-1,TR:ULKE TV UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89112
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89112.m3u8
 #EXTINF:-1,TR:FLASH HABER UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89117
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89117.m3u8
 #EXTINF:-1,TR:KON TV UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/90992
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/90992.m3u8
 #EXTINF:-1,TR:TVNET UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/96946
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/96946.m3u8
 #EXTINF:-1,TR:AKIT TV UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89122
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89122.m3u8
 #EXTINF:-1,TR:TV 100 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89123
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89123.m3u8
 #EXTINF:-1,TR:A NEWS UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89099
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89099.m3u8
 #EXTINF:-1,TR:TLC UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89160
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89160.m3u8
 #EXTINF:-1,TR:DMAX UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89162
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89162.m3u8
 #EXTINF:-1,TR:BBC EARTH UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89174
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89174.m3u8
 #EXTINF:-1,TR:DOCU SCREEN UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89177
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89177.m3u8
 #EXTINF:-1,TR:DISCOVERY CHANNEL UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89179
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89179.m3u8
 #EXTINF:-1,TR:VIASAT HISTORY UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89183
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89183.m3u8
 #EXTINF:-1,TR:HISTORY CHANNEL UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89184
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89184.m3u8
 #EXTINF:-1,TR:NAT GEOGRAPHIC UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89186
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89186.m3u8
 #EXTINF:-1,TR:NAT GEOGRAPHIC WILD UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89188
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89188.m3u8
 #EXTINF:-1,TR:BEINSPORTS 4K (MAÇ ZAMANI)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89599
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89599.m3u8
 #EXTINF:-1,TR:BEINSPORTS 1 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89012
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89012.m3u8
 #EXTINF:-1,TR:BEINSPORTS 2 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89017
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89017.m3u8
 #EXTINF:-1,TR:BEINSPORTS 3 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89019
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89019.m3u8
 #EXTINF:-1,TR:BEINSPORTS 4 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89021
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89021.m3u8
 #EXTINF:-1,TR:BEINSPORTS 5 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/104160
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/104160.m3u8
 #EXTINF:-1,TR:BEINSPORTS MAX 1 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89032
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89032.m3u8
 #EXTINF:-1,TR:BEINSPORTS HABER UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89034
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89034.m3u8
 #EXTINF:-1,TR:EXXEN SPORT 1 UHD (FEED YAYIN)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89832
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89832.m3u8
 #EXTINF:-1,TR:EXXEN SPORT 2 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89042
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89042.m3u8
 #EXTINF:-1,TR:EXXEN SPORT 3 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89045
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89045.m3u8
 #EXTINF:-1,TR:EXXEN SPORT 4 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89048
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89048.m3u8
 #EXTINF:-1,TR:EXXEN SPORT 5 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89051
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89051.m3u8
 #EXTINF:-1,TR:EXXEN SPORT 6 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89054
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89054.m3u8
 #EXTINF:-1,TR:EXXEN SPORT 7 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89055
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89055.m3u8
 #EXTINF:-1,TR:EXXEN SPORT 8 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89056
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89056.m3u8
 #EXTINF:-1,TR:SPOR SMART 1 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/103747
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/103747.m3u8
 #EXTINF:-1,TR:SPOR SMART 2 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89060
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89060.m3u8
 #EXTINF:-1,TR:EUROSPORT 1 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89095
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89095.m3u8
 #EXTINF:-1,TR:EUROSPORT 2 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89097
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89097.m3u8
 #EXTINF:-1,TR:S SPORTS 1 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89062
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89062.m3u8
 #EXTINF:-1,TR:S SPORTS 2 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89064
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89064.m3u8
 #EXTINF:-1,TR:TIVIBUSPOR UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89072
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89072.m3u8
 #EXTINF:-1,TR:TIVIBUSPOR 1 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/92358
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/92358.m3u8
 #EXTINF:-1,TR:TABII SPOR UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/104337
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/104337.m3u8
 #EXTINF:-1,TR:TABII SPOR 1 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/103828
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/103828.m3u8
 #EXTINF:-1,TR:TABII SPOR 2 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/103829
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/103829.m3u8
 #EXTINF:-1,TR:TABII SPOR 3 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/103830
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/103830.m3u8
 #EXTINF:-1,TR:TABII SPOR 4 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/103831
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/103831.m3u8
 #EXTINF:-1,TR:TABII SPOR 5 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/103832
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/103832.m3u8
 #EXTINF:-1,TR:TABII SPOR 6 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/103833
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/103833.m3u8
 #EXTINF:-1,TR:TRT SPOR UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89337
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89337.m3u8
 #EXTINF:-1,TR:TRT YILDIZ UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/111498
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/111498.m3u8
 #EXTINF:-1,TR:A SPOR UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89087
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89087.m3u8
 #EXTINF:-1,TR:HT SPOR UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/115724
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/115724.m3u8
 #EXTINF:-1,TR:EKOL SPORTS UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/116791
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/116791.m3u8
 #EXTINF:-1,TR:FIGHTBOX UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89089
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89089.m3u8
 #EXTINF:-1,TR:NBA TV UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89090
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89090.m3u8
 #EXTINF:-1,TR:BABY TV UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89190
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89190.m3u8
 #EXTINF:-1,TR:COCUK SMART UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89197
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89197.m3u8
 #EXTINF:-1,TR:FX UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89207
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89207.m3u8
 #EXTINF:-1,TR:SINEMA 1 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89210
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89210.m3u8
 #EXTINF:-1,TR:SINEMA 2 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89211
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89211.m3u8
 #EXTINF:-1,TR:SINEMA 1001 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89212
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89212.m3u8
 #EXTINF:-1,TR:SINEMA 1002 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89213
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89213.m3u8
 #EXTINF:-1,TR:SINEMA AILE UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89214
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89214.m3u8
 #EXTINF:-1,TR:SINEMA AILE 2 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89215
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89215.m3u8
 #EXTINF:-1,TR:SINEMA KOMEDI UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89216
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89216.m3u8
 #EXTINF:-1,TR:SINEMA KOMEDI 2 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89217
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89217.m3u8
 #EXTINF:-1,TR:SINEMA AKSIYON UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89218
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89218.m3u8
 #EXTINF:-1,TR:SINEMA AKSIYON 2 UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89219
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89219.m3u8
 #EXTINF:-1,TR:MOVIESMART TURK UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89268
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89268.m3u8
 #EXTINF:-1,TR:MOVIESMART CLASSIC UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89269
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89269.m3u8
 #EXTINF:-1,TR:DIZISMART PREMIUM UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89270
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89270.m3u8
 #EXTINF:-1,TR:FILMBOX UHD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89283
-#EXTINF:-1,***** TURK SPOR *****
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/37330
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89283.m3u8
 #EXTINF:-1,TR:BEINSPORTS HABER HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89354
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89354.m3u8
 #EXTINF:-1,TR:GERMANY SPORTS 1 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/105874
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/105874.m3u8
 #EXTINF:-1,TR:BEINSPORTS 1 HD (50FPS)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89006
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89006.m3u8
 #EXTINF:-1,TR:BEINSPORTS 1 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89004
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89004.m3u8
 #EXTINF:-1,TR:BEINSPORTS 1 HQ (VODAFONE-TURKCELL-TURKIYE)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89026
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89026.m3u8
 #EXTINF:-1,TR:BEINSPORTS 1 SD (DUSUK KALITE)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89371
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89371.m3u8
 #EXTINF:-1,TR:BEINSPORTS 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89007
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89007.m3u8
 #EXTINF:-1,TR:BEINSPORTS 2 HD (YEDEK)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/112574
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/112574.m3u8
 #EXTINF:-1,TR:BEINSPORTS 3 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89009
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89009.m3u8
 #EXTINF:-1,TR:BEINSPORTS 3 HD (YEDEK)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/112579
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/112579.m3u8
 #EXTINF:-1,TR:BEINSPORTS 4 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89011
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89011.m3u8
 #EXTINF:-1,TR:BEINSPORTS 4 HD (YEDEK)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/115512
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/115512.m3u8
 #EXTINF:-1,TR:BEINSPORTS 5 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89811
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89811.m3u8
 #EXTINF:-1,TR:BEINSPORTS 5 HD (YEDEK)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/112581
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/112581.m3u8
 #EXTINF:-1,TR:BEINSPORTS MAX 1 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89030
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89030.m3u8
 #EXTINF:-1,TR:BEINSPORTS MAX 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89031
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89031.m3u8
 #EXTINF:-1,TR:BEIN CONNECT 1 HD [MAC ZAMANI AKTIF]
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89365
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89365.m3u8
 #EXTINF:-1,TR:BEIN CONNECT 2 HD [MAC ZAMANI AKTIF]
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/102635
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/102635.m3u8
 #EXTINF:-1,TR:BEIN CONNECT 3 HD [MAC ZAMANI AKTIF]
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/102634
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/102634.m3u8
 #EXTINF:-1,TR:BEIN CONNECT 4 HD [MAC ZAMANI AKTIF]
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/102633
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/102633.m3u8
 #EXTINF:-1,TR:BEIN CONNECT 5 HD [MAC ZAMANI AKTIF]
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/102632
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/102632.m3u8
 #EXTINF:-1,TR:BEIN CONNECT 6 HD [MAC ZAMANI AKTIF]
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/102631
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/102631.m3u8
 #EXTINF:-1,TR:SKY SPORTS F1 HD (almanca)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/115513
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/115513.m3u8
 #EXTINF:-1,TR:SKY SPORTS F1 HD (ingiliz)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/115514
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/115514.m3u8
 #EXTINF:-1,TR:EXXEN SPORT 1 HQ
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89035
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89035.m3u8
 #EXTINF:-1,TR:EXXEN SPORT 1 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89036
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89036.m3u8
 #EXTINF:-1,TR:EXXEN SPORT 1 HD (FEED YAYIN)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89831
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89831.m3u8
 #EXTINF:-1,TR:EXXEN SPORTS 2 HD (MAC ZAMANI AKTİF )
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/101303
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/101303.m3u8
 #EXTINF:-1,TR:EXXEN SPORTS 3 HD (MAC ZAMANI AKTİF )
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/101302
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/101302.m3u8
 #EXTINF:-1,TR:EXXEN SPORTS 4 HD (MAC ZAMANI AKTİF )
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/101301
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/101301.m3u8
 #EXTINF:-1,TR:EXXEN SPORTS 5  HD (MAC ZAMANI AKTİF )
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/101300
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/101300.m3u8
 #EXTINF:-1,TR:EXXEN SPORTS 6 HD (MAC ZAMANI AKTİF )
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/101299
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/101299.m3u8
 #EXTINF:-1,TR:EXXEN SPORTS 7 HD (MAC ZAMANI AKTİF )
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/101298
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/101298.m3u8
 #EXTINF:-1,TR:EXXEN SPORTS 8 HD (MAC ZAMANI AKTİF )
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/101297
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/101297.m3u8
 #EXTINF:-1,TR:S SPORTS 1 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89061
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89061.m3u8
 #EXTINF:-1,TR:S SPORTS 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89063
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89063.m3u8
 #EXTINF:-1,TR:S SPORT PLUS 1 UHD (MAC ZAMANI)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/101359
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/101359.m3u8
 #EXTINF:-1,TR:S SPORT PLUS 2 UHD (MAC ZAMANI)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/101358
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/101358.m3u8
 #EXTINF:-1,TR:S SPORT PLUS 3 UHD (MAC ZAMANI)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/101357
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/101357.m3u8
 #EXTINF:-1,TR:S SPORT PLUS 4 UHD (MAC ZAMANI)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/101356
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/101356.m3u8
 #EXTINF:-1,TR:S SPORT PLUS 5 UHD (MAC ZAMANI)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/101355
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/101355.m3u8
 #EXTINF:-1,TR:S SPORT PLUS 6 UHD (MAC ZAMANI)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/101354
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/101354.m3u8
 #EXTINF:-1,TR:S SPORT PLUS 7 UHD (MAC ZAMANI)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/101353
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/101353.m3u8
 #EXTINF:-1,TR:S SPORT PLUS 8 UHD (MAC ZAMANI)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/101352
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/101352.m3u8
 #EXTINF:-1,TR:S SPORT PLUS 9 UHD (MAC ZAMANI)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/101351
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/101351.m3u8
 #EXTINF:-1,TR:S SPORT PLUS 10 UHD (MAC ZAMANI)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/101350
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/101350.m3u8
 #EXTINF:-1,TR:EUROSPORT 1 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89094
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89094.m3u8
 #EXTINF:-1,TR:EUROSPORT 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89096
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89096.m3u8
 #EXTINF:-1,TR:SPOR SMART 1 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/103746
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/103746.m3u8
 #EXTINF:-1,TR:SMART SPOR 1 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89057
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89057.m3u8
 #EXTINF:-1,TR:SPOR SMART 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89059
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89059.m3u8
 #EXTINF:-1,TR:TIVIBUSPOR HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89071
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89071.m3u8
 #EXTINF:-1,TR:TIVIBUSPOR 1 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/101505
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/101505.m3u8
 #EXTINF:-1,TR:TIVIBUSPOR 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89075
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89075.m3u8
 #EXTINF:-1,TR:TIVIBUSPOR 3 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89077
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89077.m3u8
 #EXTINF:-1,TR:TIVIBUSPOR 4 HD (MAC ZAMANI)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89078
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89078.m3u8
 #EXTINF:-1,TR:TABII SPOR HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/104336
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/104336.m3u8
 #EXTINF:-1,TR:TABII SPOR 1 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/103838
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/103838.m3u8
 #EXTINF:-1,TR:TABII SPOR 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/103839
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/103839.m3u8
 #EXTINF:-1,TR:TABII SPOR 3 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/103840
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/103840.m3u8
 #EXTINF:-1,TR:TABII SPOR 4 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/103841
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/103841.m3u8
 #EXTINF:-1,TR:TABII SPOR 5 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/103842
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/103842.m3u8
 #EXTINF:-1,TR:TABII SPOR 6 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/103843
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/103843.m3u8
 #EXTINF:-1,TR:TRT SPOR HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89081
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89081.m3u8
 #EXTINF:-1,TR:TRT 3 SPOR HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89083
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89083.m3u8
 #EXTINF:-1,TR:TRT YILDIZ HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89084
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89084.m3u8
 #EXTINF:-1,TR:A SPOR HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89086
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89086.m3u8
 #EXTINF:-1,TR:A SPOR HQ
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89085
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89085.m3u8
 #EXTINF:-1,TR:HT SPOR HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/104546
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/104546.m3u8
 #EXTINF:-1,TR:HT SPOR HQ
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/115725
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/115725.m3u8
 #EXTINF:-1,TR:EKOL SPORTS HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/115882
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/115882.m3u8
 #EXTINF:-1,TR:SIFIR TV HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/116803
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/116803.m3u8
 #EXTINF:-1,TR:FB TV HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89080
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89080.m3u8
 #EXTINF:-1,TR:GS TV HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89079
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89079.m3u8
 #EXTINF:-1,TR:TAY TV HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89091
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89091.m3u8
 #EXTINF:-1,TR:TJK TV HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89381
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89381.m3u8
 #EXTINF:-1,TR:NBA TV HD (TR/ENG)
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89092
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89092.m3u8
 #EXTINF:-1,TR:SPORTS TV HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89093
-#EXTINF:-1,***** TURK BELGESEL *****
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/37332
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89093.m3u8
 #EXTINF:-1,TR:TRT BELGESEL HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89166
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89166.m3u8
 #EXTINF:-1,TR:TRT 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89165
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89165.m3u8
 #EXTINF:-1,TR:NAT GEOGRAPHIC HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/103868
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/103868.m3u8
 #EXTINF:-1,TR:NAT GEOGRAPHIC WILD HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89187
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89187.m3u8
 #EXTINF:-1,TR:DISCOVERY CHANNEL HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89178
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89178.m3u8
 #EXTINF:-1,TR:DISCOVERY ID HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89180
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89180.m3u8
 #EXTINF:-1,TR:HISTORY CHANNEL HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/90263
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/90263.m3u8
 #EXTINF:-1,TR:BBC EARTH HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89173
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89173.m3u8
 #EXTINF:-1,TR:VIASAT EXPLORE HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89911
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89911.m3u8
 #EXTINF:-1,TR:VIASAT HISTORY HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89182
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89182.m3u8
 #EXTINF:-1,TR:DMAX HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89161
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89161.m3u8
 #EXTINF:-1,TR:TLC HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89159
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89159.m3u8
 #EXTINF:-1,TR:BEIN GURME HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89172
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89172.m3u8
 #EXTINF:-1,TR:BEIN IZ HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89171
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89171.m3u8
 #EXTINF:-1,TR:DA VINCI HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89175
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89175.m3u8
 #EXTINF:-1,TR:TARIH TV HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/114791
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/114791.m3u8
 #EXTINF:-1,TR:HABITAT HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/114789
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/114789.m3u8
 #EXTINF:-1,TR:TARIM TV HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/114285
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/114285.m3u8
 #EXTINF:-1,TR:ANIMAUX HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89377
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89377.m3u8
 #EXTINF:-1,TR:CIFTCI TV HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89163
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89163.m3u8
 #EXTINF:-1,TR:YABAN TV HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89380
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89380.m3u8
 #EXTINF:-1,TR:CHASSE & PECHE HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89376
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89376.m3u8
 #EXTINF:-1,TR:DOCU SCREEN HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/114783
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/114783.m3u8
 #EXTINF:-1,TR:FASHION ONE HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/114284
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/114284.m3u8
 #EXTINF:-1,TR:FASHION TV HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89000
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89000.m3u8
 #EXTINF:-1,TR:LOVE NATURE HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89168
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89168.m3u8
 #EXTINF:-1,TR:DOCU SCREEN  HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89176
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89176.m3u8
 #EXTINF:-1,TR:TGRT BELGESEL HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89167
-#EXTINF:-1,***** TURK SINEMA *****
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/37334
-#EXTINF:-1,TR:BEIN BOX OFFICE 1 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/90481
-#EXTINF:-1,TR:BEIN BOX OFFICE 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/90482
-#EXTINF:-1,TR:BEIN BOX OFFICE 3 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/90483
-#EXTINF:-1,TR:BEIN SERIES 1 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/92116
-#EXTINF:-1,TR:BEIN SERIES 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/92115
-#EXTINF:-1,TR:BEIN SERIES 3 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89267
-#EXTINF:-1,TR:BEIN SERIES 4 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89266
-#EXTINF:-1,TR:BEIN MOVIES PREMIERE 1 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/90484
-#EXTINF:-1,TR:BEIN MOVIES PREMIERE 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89264
-#EXTINF:-1,TR:BEIN MOVIES STARS HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89261
-#EXTINF:-1,TR:DIZISMART MAX HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89272
-#EXTINF:-1,TR:DIZISMART PREMIUM HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89271
-#EXTINF:-1,TR:FILMBOX HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89282
-#EXTINF:-1,TR:BBC FIRST HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/114781
-#EXTINF:-1,TR:FX HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89206
-#EXTINF:-1,TR:MOVIE GERILIM KORKU HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89280
-#EXTINF:-1,TR:MOVIE AKSIYON HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89276
-#EXTINF:-1,TR:MOVIE ANIMASYON HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89281
-#EXTINF:-1,TR:MOVIE BILIM KURGU HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89278
-#EXTINF:-1,TR:MOVIE COMEDY HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89275
-#EXTINF:-1,TR:MOVIE DRAMA ROMANTIK HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89279
-#EXTINF:-1,TR:MOVIE YERLI FILM HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89277
-#EXTINF:-1,TR:MOVIESMART CLASSIC HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89274
-#EXTINF:-1,TR:MOVIESMART TURK HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89273
-#EXTINF:-1,TR: CINE YESILCAM 1 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/100938
-#EXTINF:-1,TR: CINE YESILCAM 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/100939
-#EXTINF:-1,TR: CINE YESILCAM 3 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/100940
-#EXTINF:-1,TR: CINE YESILCAM 4 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/100941
-#EXTINF:-1,TR: CINE YESILCAM 5 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/100942
-#EXTINF:-1,TR:SINEMA AKSIYON HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89286
-#EXTINF:-1,TR:SINEMA KOMEDI HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89285
-#EXTINF:-1,TR:SINEMA TV 1002 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/100944
-#EXTINF:-1,TR:SINEMA TV 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/100945
-#EXTINF:-1,TR:SINEMA TV AILE 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/100946
-#EXTINF:-1,TR:SINEMA TV AILE HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/100947
-#EXTINF:-1,TR:SINEMA AILE HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/89284
-#EXTINF:-1,TR:SINEMA TV AKSIYON 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/100948
-#EXTINF:-1,TR:SINEMA TV AKSIYON HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/100949
-#EXTINF:-1,TR:SINEMA TV HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/100950
-#EXTINF:-1,TR:SINEMA TV KOMEDI 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/100951
-#EXTINF:-1,TR:SINEMA TV KOMEDI HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/100952
-#EXTINF:-1,TR:SINEMA TV YERLI 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/100953
-#EXTINF:-1,TR:SINEMA TV YERLI HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/100954
-#EXTINF:-1,TR:SINEMA YERLI 2 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/92118
-#EXTINF:-1,TR:SINEMA YERLI 1 HD
-http://germanyservers1.net:8080/serefsemrci/R1tF8SQeI8/92117
+http://germanyservers1.net:8080/live/serefsemrci/R1tF8SQeI8/89167.m3u8
